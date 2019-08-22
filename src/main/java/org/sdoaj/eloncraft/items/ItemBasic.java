@@ -6,6 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import org.sdoaj.eloncraft.Eloncraft;
 
@@ -15,7 +16,7 @@ import java.util.Set;
 
 public class ItemBasic extends Item {
     public ItemBasic(Properties properties, String name) {
-        super(properties);
+        super(properties.group(ItemGroupEloncraft.INSTANCE));
         this.setRegistryName(Eloncraft.MODID, name);
         ModItems.addItem(this);
     }
@@ -27,7 +28,7 @@ public class ItemBasic extends Item {
     private final List<ITextComponent> lore = new ArrayList<>();
 
     void addLore(String lore) {
-        this.lore.add(new StringTextComponent(lore));
+        this.lore.add(new StringTextComponent(TextFormatting.GRAY + lore));
     }
 
     @Override
