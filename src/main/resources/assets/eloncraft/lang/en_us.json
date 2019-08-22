@@ -1,0 +1,306 @@
+{
+    "#": "========================================",
+    "#": "ITEMS",
+    "#": "========================================",
+
+    "#": "====================",
+    "#": "metals from ores",
+    "#": "====================",
+
+    "item.eloncraft.aluminum_ingot": "Aluminum Ingot",
+    "item.eloncraft.titanium_ingot": "Titanium Ingot",
+    "item.eloncraft.lithium_ingot": "Lithium Ingot",
+    "item.eloncraft.nickel_ingot": "Nickel Ingot",
+    "item.eloncraft.chromium_ingot": "Chromium Ingot",
+    "item.eloncraft.copper_ingot": "Copper Ingot",
+    "item.eloncraft.niobium_ingot": "Niobium Ingot",
+    "item.eloncraft.hafnium_ingot": "Hafnium Ingot",
+    "item.eloncraft.magnesium_ingot": "Magnesium Ingot",
+    "item.eloncraft.zinc_ingot": "Zinc Ingot",
+
+    "item.eloncraft.aluminum_nugget": "Aluminum Nugget",
+    "item.eloncraft.titanium_nugget": "Titanium Nugget",
+    "item.eloncraft.lithium_nugget": "Lithium Nugget",
+    "item.eloncraft.nickel_nugget": "Nickel Nugget",
+    "item.eloncraft.chromium_nugget": "Chromium Nugget",
+    "item.eloncraft.copper_nugget": "Copper Nugget",
+    "item.eloncraft.niobium_nugget": "Niobium Nugget",
+    "item.eloncraft.hafnium_nugget": "Hafnium Nugget",
+    "item.eloncraft.magnesium_nugget": "Magnesium Nugget",
+    "item.eloncraft.zinc_nugget": "Zinc Nugget",
+
+    "item.eloncraft.iron_plate": "Iron Plate",
+    "item.eloncraft.gold_plate": "Gold Plate",
+    "item.eloncraft.aluminum_plate": "Aluminum Plate",
+    "item.eloncraft.titanium_plate": "Titanium Plate",
+    "item.eloncraft.lithium_plate": "Lithium Plate",
+    "item.eloncraft.nickel_plate": "Nickel Plate",
+    "item.eloncraft.chromium_plate": "Chromium Plate",
+    "item.eloncraft.copper_plate": "Copper Plate",
+    "item.eloncraft.niobium_plate": "Niobium Plate",
+    "item.eloncraft.hafnium_plate": "Hafnium Plate",
+    "item.eloncraft.magnesium_plate": "Magnesium Plate",
+    "item.eloncraft.zinc_plate": "Zinc Plate",
+
+    "item.eloncraft.iron_dust": "Crushed Iron",
+    "item.eloncraft.gold_dust": "Crushed Gold",
+    "item.eloncraft.aluminum_dust": "Crushed Aluminum",
+    "item.eloncraft.titanium_dust": "Crushed Titanium",
+    "item.eloncraft.lithium_dust": "Crushed Lithium",
+    "item.eloncraft.nickel_dust": "Crushed Nickel",
+    "item.eloncraft.chromium_dust": "Crushed Chromium",
+    "item.eloncraft.copper_dust": "Crushed Copper",
+    "item.eloncraft.niobium_dust": "Crushed Niobium",
+    "item.eloncraft.hafnium_dust": "Crushed Hafnium",
+    "item.eloncraft.magnesium_dust": "Crushed Magnesium",
+    "item.eloncraft.zinc_dust": "Crushed Zinc",
+
+    "item.eloncraft.abyssal_ingot": "Abyssal Ingot",
+    "item.eloncraft.refined_pallasite": "Refined Pallasite",
+
+    "item.eloncraft.abyssal_dust": "Crushed Abyssal Metal",
+
+    "#": "====================",
+    "#": "alloys",
+    "#": "====================",
+
+    "item.eloncraft.steel_ingot": "Steel Ingot",
+
+    "item.eloncraft.steel_nugget": "Steel Nugget",
+
+    "item.eloncraft.steel_plate": "Steel Plate",
+
+    "item.eloncraft.inconel_bars": "§6Inconel Bars",
+    "item.eloncraft.aluminum_2198_ingot": "§bAluminum 2198 Ingot",
+    "item.eloncraft.aluminum_7xxx_ingot": "§8Aluminum 7XXX Ingot",
+    "item.eloncraft.niobium_c103_ingot": "§dNiobium C-103 Ingot",
+
+    "item.eloncraft.inconel_plate": "§6Inconel Plate",
+    "item.eloncraft.aluminum_2198_plate": "§bAluminum 2198 Plate",
+    "item.eloncraft.aluminum_7xxx_plate": "§8Aluminum 7XXX Plate",
+    "item.eloncraft.niobium_c103_plate": "§dNiobium C-103 Plate",
+
+    "#": "====================",
+    "#": "other metal items",
+    "#": "====================",
+
+    "item.eloncraft.broken_steel_gear": "Broken Steel Gear",
+    "item.eloncraft.damaged_aircraft_plating": "Damaged Aircraft Plating",
+
+    "item.eloncraft.titanium_fan": "Titanium Impeller",
+    "item.eloncraft.fuel_pipe": "Fuel Pipe",
+
+    "#": "====================",
+    "#": "misc items",
+    "#": "====================",
+
+    "item.eloncraft.crushed_coal": "Crushed Coal",
+    "item.eloncraft.untreated_carbon_fibers": "Untreated Carbon Fibers",
+    "item.eloncraft.carbon_fibers": "§8Carbon Fibers",
+    "item.eloncraft.carbon_fiber_plate": "§8Carbon Fiber Plate",
+    "item.eloncraft.heat_shield": "§dHeat Shield",
+    "item.eloncraft.steel_rod": "Steel Rod",
+    "item.eloncraft.redstone_catalyst": "Redstone Combustion Catalyst",
+
+    "#": "====================",
+    "#": "rocket parts",
+    "#": "====================",
+
+    "item.eloncraft.merlin_engine": "§lMerlin Engine",
+
+    "item.eloncraft.octaweb": "§lOctaweb",
+    "item.eloncraft.landing_leg": "§lLanding Leg",
+    "item.eloncraft.fuel_tank_lox_1": "§lStage 1 LOX Tank",
+    "item.eloncraft.fuel_tank_rp1_1": "§lStage 1 RP-1 Tank",
+    "item.eloncraft.grid_fin": "§lGrid Fin",
+    "item.eloncraft.cold_gas_thruster": "§lCold Gas Thruster",
+    "item.eloncraft.interstage": "§lInterstage",
+    "item.eloncraft.fuel_tank_lox_2": "§lStage 2 LOX Tank",
+    "item.eloncraft.fuel_tank_rp1_2": "§lStage 2 RP-1 Tank",
+
+    "item.eloncraft.usa_flag": "§lAmerican Flag",
+    "item.eloncraft.usa_flag_epic": "§4§lEpic §f§lAmerican §1§lFlag",
+
+    "item.eloncraft.superdraco_engine": "§lSuperDraco Engine",
+    "item.eloncraft.fuel_tank_3": "§lDragon Fuel Tank",
+    "item.eloncraft.warp_core": "§d§lWarp Core",
+    "item.eloncraft.falcon9_dragon": "§lDragon",
+
+    "item.eloncraft.falcon9": "§lFalcon 9",
+    "item.eloncraft.falcon9_fueled": "§lFalcon 9 (Pre-Fueled)",
+
+    "#": "====================",
+    "#": "tools/weapons",
+    "#": "====================",
+
+    "item.eloncraft.titanium_pickaxe": "Titanium Pickaxe",
+
+    "item.eloncraft.titanium_cutlass": "Titanium Cutlass",
+    "item.eloncraft.titanium_katana": "Titanium Katana",
+
+    "item.eloncraft.titanium_helmet": "Titanium Helmet",
+    "item.eloncraft.titanium_chestplate": "Titanium Chestplate",
+    "item.eloncraft.titanium_leggings": "Titanium Leggings",
+    "item.eloncraft.titanium_boots": "Titanium Boots",
+
+    "item.eloncraft.flamethrower": "Not a Flamethrower",
+
+    "#": "========================================",
+    "#": "BLOCKS",
+    "#": "========================================",
+
+    "#": "====================",
+    "#": "ores",
+    "#": "====================",
+
+    "block.eloncraft.components": "Buried Components",
+
+    "block.eloncraft.aluminum_ore": "Aluminum Ore",
+    "block.eloncraft.titanium_ore": "Titanium Ore",
+    "block.eloncraft.lithium_ore": "Lithium Ore",
+    "block.eloncraft.nickel_ore": "Nickel Ore",
+    "block.eloncraft.chromium_ore": "Chromium Ore",
+    "block.eloncraft.copper_ore": "Copper Ore",
+    "block.eloncraft.niobium_ore": "Niobium Ore",
+    "block.eloncraft.hafnium_ore": "Hafnium Ore",
+    "block.eloncraft.magnesium_ore": "Magnesium Ore",
+    "block.eloncraft.zinc_ore": "Zinc Ore",
+
+    "block.eloncraft.aluminum_block": "Block of Aluminum",
+    "block.eloncraft.titanium_block": "Block of Titanium",
+    "block.eloncraft.lithium_block": "Block of Lithium",
+    "block.eloncraft.nickel_block": "Block of Nickel",
+    "block.eloncraft.chromium_block": "Block of Chromium",
+    "block.eloncraft.copper_block": "Block of Copper",
+    "block.eloncraft.niobium_block": "Block of Niobium",
+    "block.eloncraft.hafnium_block": "Block of Hafnium",
+    "block.eloncraft.magnesium_block": "Block of Magnesium",
+    "block.eloncraft.zinc_block": "Block of Zinc",
+
+    "block.eloncraft.abyssal_ore": "Abyssal Ore",
+    "block.eloncraft.pallasite_ore": "Pallasite Ore",
+
+    "#": "====================",
+    "#": "alloys",
+    "#": "====================",
+
+    "block.eloncraft.steel_block": "Block of Steel",
+
+    "block.eloncraft.leviathan_block": "Block of Leviathan Alloy",
+
+    "#": "====================",
+    "#": "machines",
+    "#": "====================",
+
+    "block.eloncraft.elon_workbench": "§3Elon Musk's Magical Workbench",
+    "container.elon_workbench.name": "Elon Musk's Magical Workbench",
+    "container.jei.eloncraft.elon_workbench.name": "Elon Musk's Magical Workbench",
+
+    "block.eloncraft.metal_roller": "Metal Roller",
+    "container.metal_roller.name": "Metal Roller",
+    "container.jei.eloncraft.metal_roller.name": "Metal Roller",
+
+    "block.eloncraft.crusher": "Crusher",
+    "container.crusher.name": "Crusher",
+    "container.jei.eloncraft.crusher.name": "Crusher",
+
+    "block.eloncraft.alloy_furnace": "Alloy Furnace",
+    "container.alloy_furnace.name": "Alloy Furnace",
+    "container.jei.eloncraft.alloy_furnace.name": "Alloy Furnace",
+
+    "block.eloncraft.refinery": "Fuel Refinery",
+    "container.refinery.name": "Fuel Refinery",
+    "container.jei.eloncraft.refinery.name": "Fuel Refinery",
+
+    "block.eloncraft.lox_collector": "LOX Collector",
+    "container.lox_collector.name": "LOX Collector",
+    "container.jei.eloncraft.lox_collector.name": "LOX Collector",
+
+    "block.eloncraft.generator": "Coal Generator",
+    "container.generator.name": "Coal Generator",
+
+    "#": "====================",
+    "#": "pipes",
+    "#": "====================",
+
+    "block.eloncraft.cable": "Power Cable",
+
+    "#": "====================",
+    "#": "launch",
+    "#": "====================",
+
+    "block.eloncraft.launch_controller": "Launch Controller",
+    "container.launch_controller.name": "Launch Controller",
+    "block.eloncraft.launchpad": "Launchpad",
+
+    "#": "====================",
+    "#": "fluids",
+    "#": "====================",
+
+    "fluid.oil": "Petroleum Oil",
+    "block.eloncraft.oil": "Petroleum Oil",
+
+    "fluid.rp1": "RP-1",
+    "block.eloncraft.rp1": "RP-1",
+    "fluid.lox": "LOX",
+    "block.eloncraft.lox": "LOX",
+
+    "#": "====================",
+    "#": "moon",
+    "#": "====================",
+
+    "block.eloncraft.moon_dirt": "Lunar Regolith",
+    "block.eloncraft.moon_rock": "Lunar Rock",
+
+    "#": "========================================",
+    "#": "OTHER",
+    "#": "========================================",
+
+    "#": "====================",
+    "#": "creative tabs",
+    "#": "====================",
+
+    "itemGroup.eloncraft": "Eloncraft",
+    "itemGroup.spacex": "Eloncraft: SpaceX",
+    "itemGroup.tesla": "Eloncraft: Tesla",
+    "itemGroup.boring_company": "Eloncraft: The Boring Company",
+
+    "#": "====================",
+    "#": "advancements",
+    "#": "====================",
+
+    "advancement.eloncraft.root": "Eloncraft",
+    "advancement.eloncraft.root.desc": "Mine some titanium ore",
+    "advancement.eloncraft.titanium_ingot": "Acquire Harderware",
+    "advancement.eloncraft.titanium_ingot.desc": "Smelt a titanium ingot",
+    "advancement.eloncraft.elon_workbench": "Size Does Matter",
+    "advancement.eloncraft.elon_workbench.desc": "Construct Elon Musk's Magical Workbench and enjoy the wonders of 160 extra slots",
+
+    "advancement.eloncraft.generator": "No one man should have all that power",
+    "advancement.eloncraft.generator.desc": "Construct a generator",
+    "advancement.eloncraft.cable": "What comes around goes around",
+    "advancement.eloncraft.cable.desc": "Craft some power cables",
+
+    "advancement.eloncraft.metal_roller": "They see me rollin'",
+    "advancement.eloncraft.metal_roller.desc": "Construct a metal roller",
+    "advancement.eloncraft.crusher": "Yet Another Ore Doubling System",
+    "advancement.eloncraft.crusher.desc": "Construct a crusher",
+    "advancement.eloncraft.alloy_furnace": "Induction Smelter Gang",
+    "advancement.eloncraft.alloy_furnace.desc": "Construct an alloy furnace",
+
+    "advancement.eloncraft.titanium_pickaxe": "More Ore",
+    "advancement.eloncraft.titanium_pickaxe.desc": "Construct a titanium pickaxe using state-of-the-art steel rods",
+
+    "advancement.eloncraft.oil": "OPEC",
+    "advancement.eloncraft.oil.desc": "Fill a bucket with oil",
+    "advancement.eloncraft.refinery": "Environmentally Unfriendly",
+    "advancement.eloncraft.refinery.desc": "Construct a refinery",
+    "advancement.eloncraft.lox_collector": "Out of Thin Air",
+    "advancement.eloncraft.lox_collector.desc": "Construct a liquid oxygen collector",
+    "advancement.eloncraft.launch_controller": "Control Freak",
+    "advancement.eloncraft.launch_controller.desc": "Construct a launch controller",
+    "advancement.eloncraft.launchpad": "A Strong Foundation",
+    "advancement.eloncraft.launchpad.desc": "Craft some launchpads",
+    "advancement.eloncraft.falcon9": "s p a c e",
+    "advancement.eloncraft.falcon9.desc": "Construct a Falcon 9 rocket"
+}

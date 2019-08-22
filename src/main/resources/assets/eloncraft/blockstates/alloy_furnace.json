@@ -1,0 +1,25 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "eloncraft:block/alloy_furnace_side_off"
+    },
+    "model": "eloncraft:machine",
+    "uvlock": true
+  },
+  "variants": {
+    "on=false": [
+      {}
+    ],
+    "on=true": [
+      {
+        "textures": {
+          "side": "eloncraft:block/alloy_furnace_side_on"
+        }
+      }
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}
