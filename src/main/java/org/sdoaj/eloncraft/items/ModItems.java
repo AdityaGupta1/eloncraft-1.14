@@ -1,11 +1,13 @@
 package org.sdoaj.eloncraft.items;
 
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.Item;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import org.sdoaj.eloncraft.Eloncraft;
+import org.sdoaj.eloncraft.items.tools.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -131,6 +133,18 @@ public class ModItems {
 
     public static ItemBasic FALCON9;
     public static ItemBasic FALCON9_FUELED;
+
+    // tools/weapons
+
+    public static ItemPickaxe TITANIUM_PICKAXE;
+
+    public static ItemSword TITANIUM_CUTLASS;
+    public static ItemSword TITANIUM_KATANA;
+
+    public static ItemArmor TITANIUM_HELMET;
+    public static ItemArmor TITANIUM_CHESTPLATE;
+    public static ItemArmor TITANIUM_LEGGINGS;
+    public static ItemArmor TITANIUM_BOOTS;
 
     private static void init() {
         ALUMINUM_INGOT = new ItemBasic("aluminum_ingot");
@@ -277,9 +291,19 @@ public class ModItems {
         FALCON9.addLore(TextFormatting.LIGHT_PURPLE + "The mystical powers of the End allow it to warp itself and its passenger back to the Overworld from anywhere in the universe.");
         FALCON9_FUELED = new ItemBasic(new Item.Properties().maxStackSize(1), "falcon9_fueled");
         FALCON9_FUELED.addLore(TextFormatting.AQUA + "Creative only");
+
+        TITANIUM_PICKAXE = new ItemPickaxe("titanium_pickaxe", ModToolMaterials.TITANIUM);
+
+        TITANIUM_CUTLASS = new ItemSword("titanium_cutlass", ModToolMaterials.TITANIUM, 10.0F, 1.3F);
+        TITANIUM_KATANA = new ItemSword("titanium_katana", ModToolMaterials.TITANIUM, 6.5F, 2.0F);
+
+        TITANIUM_HELMET = new ItemArmor("titanium_helmet", ModArmorMaterials.TITANIUM, EquipmentSlotType.HEAD);
+        TITANIUM_CHESTPLATE = new ItemArmor("titanium_chestplate",ModArmorMaterials.TITANIUM, EquipmentSlotType.CHEST);
+        TITANIUM_LEGGINGS = new ItemArmor("titanium_leggings", ModArmorMaterials.TITANIUM, EquipmentSlotType.LEGS);
+        TITANIUM_BOOTS = new ItemArmor("titanium_boots", ModArmorMaterials.TITANIUM, EquipmentSlotType.FEET);
     }
 
-    static void addItem(Item item) {
+    public static void addItem(Item item) {
         items.add(item);
     }
 
