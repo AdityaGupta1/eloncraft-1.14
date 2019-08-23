@@ -249,47 +249,47 @@ public class ModItems {
         REDSTONE_CATALYST = new ItemBasic("redstone_catalyst");
         REDSTONE_CATALYST.addLore("Enhances the reaction between fuel and LOX to produce more thrust and increase acceleration.");
 
-        MERLIN_ENGINE = new ItemBasic(new Item.Properties().maxStackSize(16), "merlin_engine");
+        MERLIN_ENGINE = new ItemBasic(defaultProperties(16), "merlin_engine");
         MERLIN_ENGINE.addLore("\"Merlin's thrust-to-weight ratio exceeds 150, making the Merlin the most efficient booster engine ever built, while still maintaining the structural and thermal safety margins needed to carry astronauts.\"");
 
-        OCTAWEB = new ItemBasic(new Item.Properties().maxStackSize(1), "octaweb");
+        OCTAWEB = new ItemBasic(defaultProperties(1), "octaweb");
         OCTAWEB.addLore("\"A metal structure that supports eight engines surrounding a center engine at the base of the launch vehicle.\"");
-        LANDING_LEG = new ItemBasic(new Item.Properties().maxStackSize(4), "landing_leg");
+        LANDING_LEG = new ItemBasic(defaultProperties(4), "landing_leg");
         LANDING_LEG.addLore("\"The Falcon 9 first stage carries landing legs which will deploy after stage separation and allow for the rocket's soft return to Earth.\"");
-        FUEL_TANK_LOX_1 = new ItemBasic(new Item.Properties().maxStackSize(1), "fuel_tank_lox_1");
+        FUEL_TANK_LOX_1 = new ItemBasic(defaultProperties(1), "fuel_tank_lox_1");
         FUEL_TANK_LOX_1.addLore("A first stage component that contains a fuel tank for liquid oxygen, an oxidizer essential for the combustion reaction used by liquid-propelled rockets to provide thrust.");
-        FUEL_TANK_RP1_1 = new ItemBasic(new Item.Properties().maxStackSize(1), "fuel_tank_rp1_1");
+        FUEL_TANK_RP1_1 = new ItemBasic(defaultProperties(1), "fuel_tank_rp1_1");
         FUEL_TANK_RP1_1.addLore("A first stage component that contains a fuel tank for RP-1 (Rocket Propellant-1), a highly refined form of kerosene used as rocket fuel.");
-        GRID_FIN = new ItemBasic(new Item.Properties().maxStackSize(4), "grid_fin");
+        GRID_FIN = new ItemBasic(defaultProperties(4), "grid_fin");
         GRID_FIN.addLore("\"Falcon 9's first stage is equipped with hypersonic grid fins that manipulate the direction of the stage's lift during re-entry.\"");
-        COLD_GAS_THRUSTER = new ItemBasic(new Item.Properties().maxStackSize(2), "cold_gas_thruster");
+        COLD_GAS_THRUSTER = new ItemBasic(defaultProperties(2), "cold_gas_thruster");
         COLD_GAS_THRUSTER.addLore("Used to flip the rocket around as it begins its journey back to Earth.");
-        INTERSTAGE = new ItemBasic(new Item.Properties().maxStackSize(1), "interstage");
+        INTERSTAGE = new ItemBasic(defaultProperties(1), "interstage");
         INTERSTAGE.addLore("The interstage connects the first and second stages and facilitates their separation. It also has grid fins and cold gas thrusters for steering and alignment during re-entry and landing.");
-        FUEL_TANK_LOX_2 = new ItemBasic(new Item.Properties().maxStackSize(1), "fuel_tank_lox_2");
+        FUEL_TANK_LOX_2 = new ItemBasic(defaultProperties(1), "fuel_tank_lox_2");
         FUEL_TANK_LOX_2.addLore("A second stage component that contains a fuel tank for liquid oxygen, an oxidizer essential for the combustion reaction used by liquid-propelled rockets to provide thrust.");
-        FUEL_TANK_RP1_2 = new ItemBasic(new Item.Properties().maxStackSize(1), "fuel_tank_rp1_2");
+        FUEL_TANK_RP1_2 = new ItemBasic(defaultProperties(1), "fuel_tank_rp1_2");
         FUEL_TANK_RP1_2.addLore("A second stage component that contains a fuel tank for RP-1 (Rocket Propellant-1), a highly refined form of kerosene used as rocket fuel.");
 
-        USA_FLAG = new ItemBasic(new Item.Properties().maxStackSize(1), "usa_flag");
-        USA_FLAG_EPIC = new ItemBasic(new Item.Properties().maxStackSize(1), "usa_flag_epic");
+        USA_FLAG = new ItemBasic(defaultProperties(1), "usa_flag");
+        USA_FLAG_EPIC = new ItemBasic(defaultProperties(1), "usa_flag_epic");
         USA_FLAG_EPIC.setGlows();
 
-        SUPERDRACO_ENGINE = new ItemBasic(new Item.Properties().maxStackSize(8), "superdraco_engine");
+        SUPERDRACO_ENGINE = new ItemBasic(defaultProperties(8), "superdraco_engine");
         SUPERDRACO_ENGINE.addLore("3D printed engines made of Inconel and used to provide propulsion for the Crew Dragon.");
-        FUEL_TANK_3 = new ItemBasic(new Item.Properties().maxStackSize(4), "fuel_tank_3");
+        FUEL_TANK_3 = new ItemBasic(defaultProperties(4), "fuel_tank_3");
         FUEL_TANK_3.addLore("SuperDraco engines don't actually use RP-1 and LOX, but making fuel is annoying enough already.");
-        WARP_CORE = new ItemBasic(new Item.Properties().maxStackSize(1), "warp_core");
+        WARP_CORE = new ItemBasic(defaultProperties(1), "warp_core");
         WARP_CORE.addLore("An essential piece of the Dragon that allows it and its passenger to return to the Overworld.");
         WARP_CORE.setGlows();
-        FALCON9_DRAGON = new ItemBasic(new Item.Properties().maxStackSize(1), "falcon9_dragon");
+        FALCON9_DRAGON = new ItemBasic(defaultProperties(1), "falcon9_dragon");
         FALCON9_DRAGON.addLore("\"Dragon is a free-flying spacecraft designed to deliver both cargo and people to orbiting destinations.\"");
 
-        FALCON9 = new ItemBasic(new Item.Properties().maxStackSize(1), "falcon9");
+        FALCON9 = new ItemBasic(defaultProperties(1), "falcon9");
         FALCON9.addLore(TextFormatting.GOLD + "One small step for a Steve, one giant leap for mankind.");
         FALCON9.addLore(TextFormatting.AQUA + "Using magical items found only in the world of Minecraft, this rocket and its crew capsule can go much farther than their real-life counterparts.");
-        FALCON9.addLore(TextFormatting.LIGHT_PURPLE + "The mystical powers of the End allow it to warp itself and its passenger back to the Overworld from anywhere in the universe.");
-        FALCON9_FUELED = new ItemBasic(new Item.Properties().maxStackSize(1), "falcon9_fueled");
+        FALCON9.addLore(TextFormatting.LIGHT_PURPLE + "The mystical powers of the End* allow it to warp itself and its passenger back to the Overworld from anywhere in the universe.");
+        FALCON9_FUELED = new ItemBasic(defaultProperties(1), "falcon9_fueled");
         FALCON9_FUELED.addLore(TextFormatting.AQUA + "Creative only");
 
         TITANIUM_PICKAXE = new ItemPickaxe("titanium_pickaxe", ModToolMaterials.TITANIUM);
@@ -311,5 +311,13 @@ public class ModItems {
     public static void registerItems(RegistryEvent.Register<Item> event) {
         init();
         items.forEach(event.getRegistry()::register);
+    }
+
+    public static Item.Properties defaultProperties() {
+        return new Item.Properties().group(ItemGroupEloncraft.INSTANCE);
+    }
+
+    public static Item.Properties defaultProperties(int maxStackSize) {
+        return defaultProperties().maxStackSize(maxStackSize);
     }
 }

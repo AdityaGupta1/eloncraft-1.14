@@ -6,10 +6,8 @@ import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.IAttribute;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
-import org.sdoaj.eloncraft.items.ItemGroupEloncraft;
 import org.sdoaj.eloncraft.items.ModItems;
 
 import java.util.Collection;
@@ -29,7 +27,7 @@ public class ItemSword extends SwordItem {
     }
 
     public ItemSword(String name, IItemTier tier, float damage, float attackSpeed) {
-        this(name, tier, damage, attackSpeed, new Item.Properties().group(ItemGroupEloncraft.INSTANCE).maxStackSize(1));
+        this(name, tier, damage, attackSpeed, ModItems.defaultProperties(1));
     }
 
     @Override
