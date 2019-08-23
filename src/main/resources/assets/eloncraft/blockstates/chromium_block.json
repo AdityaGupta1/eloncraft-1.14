@@ -1,18 +1,7 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "all": "eloncraft:block/chromium_block"
-    },
-    "model": "cube_all",
-    "uvlock": true
-  },
   "variants": {
-    "normal": [
-      {}
-    ],
-    "inventory": [
-      {}
-    ]
+    "": {
+      "model": "eloncraft:block/chromium_block"
+    }
   }
 }

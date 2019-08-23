@@ -17,8 +17,7 @@ import java.util.Set;
 public class ItemBasic extends Item {
     public ItemBasic(Properties properties, String name) {
         super(properties.group(ItemGroupEloncraft.INSTANCE));
-        this.setRegistryName(Eloncraft.MODID, name);
-        ModItems.addItem(this);
+        ModItems.addItem(this.setRegistryName(Eloncraft.MODID, name));
     }
 
     public ItemBasic(String name) {

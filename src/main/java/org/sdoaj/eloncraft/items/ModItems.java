@@ -16,7 +16,6 @@ import java.util.List;
 @Mod.EventBusSubscriber(modid = Eloncraft.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModItems {
     private static final List<Item> items = new ArrayList<>();
-    private static final HashMap<Item, String> oreDictEntries = new HashMap<>();
 
     // metals from ores
 
