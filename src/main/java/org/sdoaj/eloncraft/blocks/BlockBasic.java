@@ -3,6 +3,7 @@ package org.sdoaj.eloncraft.blocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.ToolType;
 import org.sdoaj.eloncraft.Eloncraft;
 import org.sdoaj.eloncraft.items.ModItems;
@@ -22,4 +23,13 @@ public class BlockBasic extends Block {
     public static BlockBasic newMetalBlock(String material, int harvestLevel, float hardness, float resistance) {
         return new BlockBasic(material + "_block", Material.IRON, hardness, resistance, harvestLevel, ToolType.PICKAXE);
     }
+
+    public static BlockBasic newStoneOre(String material, int harvestLevel, float hardness, float resistance) {
+        return new BlockBasic(material + "_ore", Material.IRON, hardness, resistance, harvestLevel, ToolType.PICKAXE);
+    }
+
+    // @Override
+    // public ResourceLocation getLootTable() {
+    //     return new ResourceLocation(Eloncraft.MODID, "blocks/" + this.getRegistryName());
+    // }
 }

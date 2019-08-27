@@ -1,6 +1,8 @@
 package org.sdoaj.eloncraft.blocks;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -15,18 +17,18 @@ public class ModBlocks {
 
     // ores
 
-    // public static Block COMPONENTS;
-    //
-    // public static Block ALUMINUM_ORE;
-    // public static Block TITANIUM_ORE;
-    // public static Block LITHIUM_ORE;
-    // public static Block NICKEL_ORE;
-    // public static Block CHROMIUM_ORE;
-    // public static Block COPPER_ORE;
-    // public static Block NIOBIUM_ORE;
-    // public static Block HAFNIUM_ORE;
-    // public static Block MAGNESIUM_ORE;
-    // public static Block ZINC_ORE;
+    public static Block COMPONENTS;
+
+    public static Block ALUMINUM_ORE;
+    public static Block TITANIUM_ORE;
+    public static Block LITHIUM_ORE;
+    public static Block NICKEL_ORE;
+    public static Block CHROMIUM_ORE;
+    public static Block COPPER_ORE;
+    public static Block NIOBIUM_ORE;
+    public static Block HAFNIUM_ORE;
+    public static Block MAGNESIUM_ORE;
+    public static Block ZINC_ORE;
 
     public static Block ALUMINUM_BLOCK;
     public static Block TITANIUM_BLOCK;
@@ -65,25 +67,18 @@ public class ModBlocks {
     // public static Block LAUNCHPAD;
 
     public static void init() {
-        // COMPONENTS = new BlockOre("components", Material.IRON, new Drops(
-        //         new Drop(ModItems.BROKEN_STEEL_GEAR, 1, 3, 1),
-        //         new Drop(ModItems.DAMAGED_AIRCRAFT_PLATING, 0, 1, 0.5),
-        //         new Drop(ModItems.NICKEL_NUGGET, 1, 3, 1),
-        //         new Drop(ModItems.LITHIUM_NUGGET, 1, 2, 1),
-        //         new Drop(Items.IRON_NUGGET, 1, 3, 1.5)))
-        //         .setHardness(5.0F).setResistance(10.0F);
-        // COMPONENTS.setHarvestLevel("pickaxe", 2);
-        //
-        // ALUMINUM_ORE = BlockOre.newStoneOre("aluminum", 2, 3, 8);
-        // TITANIUM_ORE = BlockOre.newStoneOre("titanium", 3, 5, 15);
-        // LITHIUM_ORE = BlockOre.newStoneOre("lithium", 2, 3, 8);
-        // NICKEL_ORE = BlockOre.newStoneOre("nickel", 2, 5, 12);
-        // CHROMIUM_ORE = BlockOre.newStoneOre("chromium", 2, 3, 8);
-        // COPPER_ORE = BlockOre.newStoneOre("copper", 2, 3, 8);
-        // NIOBIUM_ORE = BlockOre.newStoneOre("niobium", 3, 4, 10);
-        // HAFNIUM_ORE = BlockOre.newStoneOre("hafnium", 3, 4, 12);
-        // MAGNESIUM_ORE = BlockOre.newStoneOre("magnesium", 2, 3, 8);
-        // ZINC_ORE = BlockOre.newStoneOre("zinc", 2, 3, 8);
+        COMPONENTS = new BlockBasic("components", Material.IRON, 5, 10, 2, ToolType.PICKAXE);
+
+        ALUMINUM_ORE = BlockBasic.newStoneOre("aluminum", 2, 3, 8);
+        TITANIUM_ORE = BlockBasic.newStoneOre("titanium", 3, 5, 15);
+        LITHIUM_ORE = BlockBasic.newStoneOre("lithium", 2, 3, 8);
+        NICKEL_ORE = BlockBasic.newStoneOre("nickel", 2, 5, 12);
+        CHROMIUM_ORE = BlockBasic.newStoneOre("chromium", 2, 3, 8);
+        COPPER_ORE = BlockBasic.newStoneOre("copper", 2, 3, 8);
+        NIOBIUM_ORE = BlockBasic.newStoneOre("niobium", 3, 4, 10);
+        HAFNIUM_ORE = BlockBasic.newStoneOre("hafnium", 3, 4, 12);
+        MAGNESIUM_ORE = BlockBasic.newStoneOre("magnesium", 2, 3, 8);
+        ZINC_ORE = BlockBasic.newStoneOre("zinc", 2, 3, 8);
 
         ALUMINUM_BLOCK = BlockBasic.newMetalBlock("aluminum", 2, 5, 16);
         TITANIUM_BLOCK = BlockBasic.newMetalBlock("titanium", 3, 8, 30);

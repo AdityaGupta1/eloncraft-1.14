@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
-  "textures": {
-    "all": "eloncraft:block/zinc_block"
+    "textures": {
+      "all": "eloncraft:block/zinc_block"
   }
 }
