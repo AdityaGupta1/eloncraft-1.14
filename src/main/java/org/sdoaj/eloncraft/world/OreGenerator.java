@@ -1,6 +1,6 @@
 package org.sdoaj.eloncraft.world;
 
-import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
 import net.minecraft.world.gen.GenerationStage;
@@ -11,6 +11,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
+import org.sdoaj.eloncraft.blocks.ModBlocks;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,7 +19,6 @@ import java.util.stream.Collectors;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class OreGenerator {
-    // public static final Feature<ModOreFeatureConfig> ORE_FEATURE = register("mod_ore", new ModOreFeature(ModOreFeatureConfig::deserialize));
     public static final Feature<ModOreFeatureConfig> ORE_FEATURE = new ModOreFeature(ModOreFeatureConfig::deserialize);
 
     static {
@@ -31,8 +31,18 @@ public class OreGenerator {
             biome -> !netherBiomes.contains(biome) && !endBiomes.contains(biome)).collect(Collectors.toList());
 
     public static void init() {
-        generate(new ModOreFeatureConfig(ModOreFeatureConfig.BlockMatcher.STONE, Blocks.DIAMOND_BLOCK.getDefaultState(), 8),
-                new CountRangeConfig(100, 0, 0, 128));
+        generate(defaultOreConfig(ModBlocks.COMPONENTS, 6), defaultCountConfig(15, 8, 63));
+
+        generate(defaultOreConfig(ModBlocks.ALUMINUM_ORE, 10), defaultCountConfig(60, 63));
+        generate(defaultOreConfig(ModBlocks.TITANIUM_ORE, 8), defaultCountConfig(40, 47));
+        generate(defaultOreConfig(ModBlocks.LITHIUM_ORE, 5), defaultCountConfig(20, 47));
+        generate(defaultOreConfig(ModBlocks.NICKEL_ORE, 8), defaultCountConfig(35, 47));
+        generate(defaultOreConfig(ModBlocks.CHROMIUM_ORE, 5), defaultCountConfig(15, 31));
+        generate(defaultOreConfig(ModBlocks.COPPER_ORE, 10), defaultCountConfig(50, 63));
+        generate(defaultOreConfig(ModBlocks.NIOBIUM_ORE, 8), defaultCountConfig(30, 31));
+        generate(defaultOreConfig(ModBlocks.HAFNIUM_ORE, 4), defaultCountConfig(15, 31));
+        generate(defaultOreConfig(ModBlocks.MAGNESIUM_ORE, 6), defaultCountConfig(20, 47));
+        generate(defaultOreConfig(ModBlocks.ZINC_ORE, 5), defaultCountConfig(20, 47));
     }
 
     private static void generate(List<Biome> biomes, ModOreFeatureConfig oreConfig, CountRangeConfig rangeConfig) {
@@ -46,5 +56,17 @@ public class OreGenerator {
     @SubscribeEvent
     public static void registerFeatures(final RegistryEvent.Register<Feature<?>> featureRegistryEvent) {
         featureRegistryEvent.getRegistry().register(OreGenerator.ORE_FEATURE);
+    }
+
+    private static ModOreFeatureConfig defaultOreConfig(Block ore, int size) {
+        return new ModOreFeatureConfig(ModOreFeatureConfig.BlockMatcher.STONE, ore.getDefaultState(), size);
+    }
+
+    private static CountRangeConfig defaultCountConfig(int count, int minHeight, int maxHeight) {
+        return new CountRangeConfig(count, minHeight, minHeight, maxHeight);
+    }
+
+    private static CountRangeConfig defaultCountConfig(int count, int maxHeight) {
+        return defaultCountConfig(count, 0, maxHeight);
     }
 }
