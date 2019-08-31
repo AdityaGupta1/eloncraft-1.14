@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eloncraft:hafnium_ingot"
+    }
+  ],
+  "result": {
+    "item": "eloncraft:hafnium_nugget",
+    "count": 9
+  }
+}

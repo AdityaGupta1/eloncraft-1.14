@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eloncraft:zinc_ingot"
+    }
+  ],
+  "result": {
+    "item": "eloncraft:zinc_nugget",
+    "count": 9
+  }
+}

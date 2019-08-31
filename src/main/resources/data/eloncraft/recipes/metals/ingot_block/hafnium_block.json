@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "eloncraft:hafnium_ingot"
+    }
+  },
+  "result": {
+    "item": "eloncraft:hafnium_block",
+    "count": 1
+  }
+}

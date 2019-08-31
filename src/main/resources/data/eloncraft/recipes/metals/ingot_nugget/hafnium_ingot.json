@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "key": {
+    "n": {
+      "item": "eloncraft:hafnium_nugget"
+    }
+  },
+  "result": {
+    "item": "eloncraft:hafnium_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " t ",
+    "ttt",
+    " t "
+  ],
+  "key": {
+    "t": {
+      "item": "eloncraft:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "eloncraft:titanium_fan",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eloncraft:niobium_block"
+    }
+  ],
+  "result": {
+    "item": "eloncraft:niobium_ingot",
+    "count": 9
+  }
+}

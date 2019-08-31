@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " p ",
+    "ptp",
+    " p "
+  ],
+  "key": {
+    "t": {
+      "item": "eloncraft:tiatnium_ingot"
+    },
+    "p": {
+      "item": "eloncraft:titanium_plate"
+    }
+  },
+  "result": {
+    "item": "eloncraft:titanium_fan",
+    "count": 3
+  }
+}

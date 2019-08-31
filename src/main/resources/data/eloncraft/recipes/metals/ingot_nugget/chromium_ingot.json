@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "key": {
+    "n": {
+      "item": "eloncraft:chromium_nugget"
+    }
+  },
+  "result": {
+    "item": "eloncraft:chromium_ingot",
+    "count": 1
+  }
+}

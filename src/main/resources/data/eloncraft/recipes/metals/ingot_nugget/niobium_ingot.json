@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "key": {
+    "n": {
+      "item": "eloncraft:niobium_nugget"
+    }
+  },
+  "result": {
+    "item": "eloncraft:niobium_ingot",
+    "count": 1
+  }
+}

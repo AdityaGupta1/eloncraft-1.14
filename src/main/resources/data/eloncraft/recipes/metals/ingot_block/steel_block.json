@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "eloncraft:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "eloncraft:steel_block",
+    "count": 1
+  }
+}
