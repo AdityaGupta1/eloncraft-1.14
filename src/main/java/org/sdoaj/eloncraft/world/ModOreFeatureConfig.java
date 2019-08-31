@@ -3,6 +3,7 @@ package org.sdoaj.eloncraft.world;
 import com.google.common.collect.ImmutableMap;
 import com.mojang.datafixers.Dynamic;
 import com.mojang.datafixers.types.DynamicOps;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.gen.feature.IFeatureConfig;
@@ -38,7 +39,7 @@ public class ModOreFeatureConfig implements IFeatureConfig {
     }
 
     public enum BlockMatcher {
-        STONE("stone", state -> state.getBlock() == Blocks.STONE);
+        STONE("stone", Blocks.STONE);
 
         private final String name;
         private final Predicate<BlockState> matcher;
@@ -49,6 +50,14 @@ public class ModOreFeatureConfig implements IFeatureConfig {
         BlockMatcher(String name, Predicate<BlockState> matcher) {
             this.name = name;
             this.matcher = matcher;
+        }
+
+        BlockMatcher(String name, BlockState... states) {
+            this(name, state -> Arrays.asList(states).contains(state));
+        }
+
+        BlockMatcher(String name, Block... blocks) {
+            this(name, Arrays.stream(blocks).map(Block::getDefaultState).toArray(BlockState[]::new));
         }
 
         public static BlockMatcher fromName(String name) {
